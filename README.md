@@ -21,6 +21,29 @@ Features include product management, warehouse and inventory tracking, order pro
 4. Run migrations: `alembic upgrade head`.
 5. Start API: `python -m uvicorn app.main:app --reload`.
 
+## Run the React Frontend
+
+Make sure the FastAPI backend is running first.
+
+Open a second terminal in the project root and run:
+
+```cmd
+cd frontend
+npm install
+npm run dev
+```
+
+Open the frontend in your browser:
+
+`http://127.0.0.1:5173`
+
+The React frontend communicates with the FastAPI backend through the Vite development proxy.
+
+Backend API documentation:
+
+`http://127.0.0.1:8000/docs`
+   
+
 ## Local test commands
 
 ```cmd
