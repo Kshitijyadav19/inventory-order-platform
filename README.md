@@ -4,6 +4,21 @@ Full-stack Inventory & Order Management Platform built with **FastAPI, React, Po
 
 Features include product management, warehouse and inventory tracking, order processing, stock allocation, payment verification, and a responsive React frontend.
 
+## Key Features
+
+- JWT-based user authentication
+- Product and category management
+- Warehouse and inventory tracking
+- Stock allocation and inventory transactions
+- Order creation and order management
+- Razorpay test-mode payment integration
+- Payment signature verification
+- Private AWS S3 file upload and download links (optional)
+- React-based frontend dashboard
+- PostgreSQL database with Alembic migrations
+- Docker Compose, Redis and Celery scaffold
+- Automated tests using Pytest
+
 ## Local setup (Windows)
 
 ### Option A — Docker Desktop (recommended)
