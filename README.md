@@ -1,8 +1,8 @@
 # Inventory & Order Management Platform
 
-Backend project built with FastAPI, PostgreSQL, SQLAlchemy, Alembic, JWT authentication, inventory ledger, order reservations, Razorpay test-mode payment support, Redis, Celery, Docker Compose and Pytest.
+Full-stack Inventory & Order Management Platform built with **FastAPI, React, PostgreSQL, SQLAlchemy, Alembic, JWT Authentication, and Razorpay Test Mode**.
 
-> **No AWS deployment is required.** Run the complete application locally. AWS is optional and may be used only for isolated S3 feature testing if you choose to add/configure it. No EC2, domain, Nginx or public server is needed.
+Features include product management, warehouse and inventory tracking, order processing, stock allocation, payment verification, and a responsive React frontend.
 
 ## Local setup (Windows)
 
